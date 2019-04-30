@@ -8,5 +8,5 @@ Dataset$Datetime <- ymd_hms(paste(Dataset$Date, Dataset$Time))
 
 ## Creating Plot 2
 plot(x=Dataset$Datetime, y=Dataset$Global_active_power, type = "l",
-     ylab = "Global Active Power(Kilowatts)")
+     ylab = "Global Active Power(Kilowatts)", xlab = "")
 
