@@ -7,10 +7,6 @@ colnames(Dataset) <- c("Date", "Time", "Global_active_power", "Global_reactive_p
                        "Voltage", "Global_intensity", "Sub_metering_1", 
                         "Sub_metering_2", "Sub_metering_3")
 
-dim(Dataset)
-names(Dataset)
-head(Dataset)
-
 # Creating Plot 1
 hist(Dataset$Global_active_power, col = "red",
      xlab = "Global active power(kilowatts)",
